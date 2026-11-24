@@ -1,0 +1,41 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "bluetooth_confirm": {
+        "description": "Add {name}?"
+      },
+      "user": {
+        "description": "Choose the probe. It must be switched on and the Testo app closed.",
+        "data": {
+          "address": "Probe"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This probe is already added.",
+      "no_devices_found": "No Testo 405i in range. Switch it on, close the Testo app and try again."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "velocity": {
+        "name": "Velocity"
+      },
+      "temperature": {
+        "name": "Temperature"
+      },
+      "flow": {
+        "name": "Flow"
+      },
+      "battery": {
+        "name": "Battery"
+      }
+    },
+    "number": {
+      "duct_diameter": {
+        "name": "Duct diameter"
+      }
+    }
+  }
+}

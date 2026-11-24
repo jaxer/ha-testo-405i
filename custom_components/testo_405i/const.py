@@ -1,0 +1,6 @@
+"""Constants."""
+
+DOMAIN = "testo_405i"
+MANUFACTURER = "Testo"
+MODEL = "405i"
+DEFAULT_DUCT_DIAMETER_MM = 100.0

@@ -1,0 +1,41 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "bluetooth_confirm": {
+        "description": "Добавить {name}?"
+      },
+      "user": {
+        "description": "Выберите зонд. Он должен быть включён, а приложение Testo закрыто.",
+        "data": {
+          "address": "Зонд"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Этот зонд уже добавлен.",
+      "no_devices_found": "Testo 405i не найден. Включите зонд, закройте приложение Testo и попробуйте снова."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "velocity": {
+        "name": "Скорость"
+      },
+      "temperature": {
+        "name": "Температура"
+      },
+      "flow": {
+        "name": "Расход"
+      },
+      "battery": {
+        "name": "Заряд"
+      }
+    },
+    "number": {
+      "duct_diameter": {
+        "name": "Диаметр трубы"
+      }
+    }
+  }
+}
